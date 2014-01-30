@@ -1,0 +1,26 @@
+{
+  "name": "midi-qwerty-keys",
+  "version": "0.0.0",
+  "description": "Use qwerty keyboard as midi keyboard in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmckegg/midi-qwerty-keys.git"
+  },
+  "keywords": [
+    "midi",
+    "keydown",
+    "keyup",
+    "browser",
+    "qwerty"
+  ],
+  "dependencies": {
+    "through": "~2.3.4",
+    "keycode": "~0.3.0"
+  },
+  "author": "Matt McKegg",
+  "license": "MIT"
+}

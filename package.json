@@ -1,6 +1,6 @@
 {
   "name": "midi-qwerty-keys",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Use qwerty keyboard as midi keyboard in the browser",
   "main": "index.js",
   "scripts": {

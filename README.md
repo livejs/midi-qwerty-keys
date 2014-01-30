@@ -29,9 +29,11 @@ Black notes on the qwerty row and whites on the asdf row. Use `z` and `x` to mov
 A S D F G H J K L ; '
 ```
 
-## The Grid
+### The Grid
 
 ```js
 var noteStream = QwertyKeys({mode: 'grid'})
 noteStream.pipe(midiDestination)
 ```
+
+The first 8 keys in all letter rows are used. Move the rows up and down using '-' and '=/+' keys. 

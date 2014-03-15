@@ -6,7 +6,8 @@ module.exports = function KeyStream(){
   var keystream = Through()
 
   function send(e){
-    if (!document.activeElement || !~ignore.indexOf(document.activeElement.nodeName)){
+    var el = document.activeElement
+    if (!el || (!~ignore.indexOf(el.nodeName) && el.contentEditable !== 'true')){
       keystream.write(e)
     }
   }
